@@ -21,3 +21,9 @@ At Upper Life, we prioritize your convenience. Our website is optimized for easy
 Join us on this exciting journey as we continue to expand our brand and offer trendy clothing that resonates with the youth. Thank you for being a part of the Upper Life community! We can’t wait for you to explore our collections and find your perfect outfit.
 
 For any inquiries or additional information, please don’t hesitate to reach out through our Contact Us page. Happy shopping!
+
+## Netlify link
+upper-life.netlify.app
+
+## Author
+Rapelang Dimaza
