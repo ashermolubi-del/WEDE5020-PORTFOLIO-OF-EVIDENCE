@@ -22,6 +22,55 @@ Join us on this exciting journey as we continue to expand our brand and offer tr
 
 For any inquiries or additional information, please don’t hesitate to reach out through our Contact Us page. Happy shopping!
 
+## Changelog
+
+All notable updates to the Upper Life Clothing Co. website are recorded here.
+
+## [Unreleased]
+
+### Added
+- Created a multi-page storefront with Home, About, Collections, Shop, Shopping Cart, and Contact pages, connected by shared navigation.
+- Added a home-page fashion slideshow, brand introduction, calls to action, and brand-highlight cards.
+- Added brand story content and curated Urban Basics and Weekend Layers collection highlights.
+- Added a six-product shop catalogue with descriptions, product photography, prices in rand, and links to the cart page.
+- Added a sample cart view with two items, sizes and colours, and a displayed total.
+- Added contact details, a mail link, and FAQs covering shipping, delivery times, returns, and restocks.
+- Added and organized clothing and brand image assets for use throughout the storefront.
+
+### Changed
+- Applied a consistent Upper Life visual identity with a warm neutral palette, dark navigation and footer, gold accents, rounded cards, and a subtle brand watermark.
+- Added responsive layouts for product and collection grids, page sections, navigation, and the cart on smaller screens.
+- Improved navigation and interaction styling with hover and keyboard-focus states; added descriptive image text and semantic section labels.
+- Added shared typography, spacing, card, button, image, and footer styles across the site.
+
+### Notes
+- The cart is currently a static display; the product links navigate to the cart page and do not add or update cart items dynamically.
+
+## References
+Castellano, L. (2025) 'What is a changelog? Importance, best practices, and examples', Changelogfy, 24 June. Available at: 
+changelogfy.com
+ (Accessed: 9 November 2026).
+
+eComStreet (2023) 'Importance of JavaScript in web development', eComStreet, 11 October. Available at: 
+ecomstreet.com
+ (Accessed: 9 November 2026).
+
+Berry, S. (2026) 'What is SEO? Learn the essentials of search engine optimization', SEO.com, updated 23 July. Available at: 
+seo.com
+ (Accessed: 9 November 2026).
+
+W3Schools (n.d.) 'CSS responsive web design', W3Schools. Available at: 
+w3schools.com
+ (Accessed: 9 November 2026).
+
+W3Schools (n.d.) 'How to create a lightbox', W3Schools. Available at: 
+w3schools.com
+ (Accessed: 9 November 2026).
+
+Backlinko (2025) '19 sitemap examples for any type of website (+ best practices)', Backlinko, 12 May. Available at: 
+backlinko.com
+ (Accessed: 9 November 2026).
+
 ## Netlify link
 upper-life.netlify.app
 
