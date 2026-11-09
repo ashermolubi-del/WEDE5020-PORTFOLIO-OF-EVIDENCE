@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upper Life Clothing Co</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="watermark" aria-hidden="true">
+    <img src="Images/IMG-20260901-WA0077.jpg" alt="Upper Life watermark" />
+  </div>
+<!--Navighation bar-->
+  <header class="site-header">
+    <div class="topbar">
+      <div class="brand">Upper Life</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="Index.html">Home</a>
+        <a href="About Us.html">About</a>
+        <a href="Collections.html">Collections</a>
+        <a href="Shop.html">Shop</a>
+        <a href="Shopping Cart.html">Cart</a>
+        <a href="Order%20Form.html">Order</a>
+        <a href="Contact Us.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!--Slideshow showcasing different clothing we offer-->
+    <section class="hero-panel" aria-label="Featured fashion showcase">
+      <div class="slideshow">
+        <div class="slide active">
+          <img src="Images/IMG-20260901-WA0070.jpg" alt="Fashion portrait 1" />
+          <div class="slide-text">
+            <h2>Refined essentials</h2>
+            <p>Clean silhouettes and premium comfort for the modern wardrobe.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="Images/IMG-20260901-WA0071.jpg" alt="Fashion portrait 2" />
+          <div class="slide-text">
+            <h2>Tailored for daily living</h2>
+            <p>Thoughtful design, polished detail, and effortless confidence.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="Images/Tracksuit.jpg" alt="Fashion portrait 3" />
+          <div class="slide-text">
+            <h2>Wardrobe upgrades</h2>
+            <p>Elevated staples that move beautifully from work to weekend.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <!--Main header-->
+        <div>
+          <h1>Upper Life Clothing Co</h1>
+          <p class="lead">Welcome to Upper Life Clothing Co, your destination for contemporary clothing that blends comfort, confidence, and style. Explore our curated collections, shop our latest arrivals, and learn more about our brand.</p>
+          <div class="button-row">
+            <a class="button" href="Shop.html">Shop now</a>
+            <a class="button secondary" href="About Us.html">Learn more</a>
+          </div>
+        </div>
+
+        <div class="quick-metrics">
+          <div class="metric">
+            <strong>2026</strong>
+            <span>New seasonal drop</span>
+          </div>
+          <div class="metric">
+            <strong>Daily</strong>
+            <span>Designed for everyday wear</span>
+          </div>
+          <div class="metric">
+            <strong>Premium</strong>
+            <span>Comfort-first styling</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About us section-->
+    <h2 class="section-heading">Why Upper Life</h2>
+    <section class="cards-grid" aria-label="Brand highlights">
+      <article class="card">
+        <div class="card-image">
+          <img src="Images/IMG-20260901-WA0073.jpg" alt="Comfortable everyday fashion" />
+        </div>
+        <div class="card-body">
+          <h3>Comfort</h3>
+          <p>Everyday essentials designed to feel as good as they look.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image">
+          <img src="Images/IMG-20260901-WA0074.jpg" alt="Tailored elegant style" />
+        </div>
+        <div class="card-body">
+          <h3>Style</h3>
+          <p>Modern pieces created for daily confidence and polished presence.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image">
+          <img src="Images/Tracksuit.jpg" alt="Fresh arrivals" />
+        </div>
+        <div class="card-body">
+          <h3>Fresh arrivals</h3>
+          <p>Curated updates that keep your wardrobe current and refined.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+  <!--Footer-->
+  <footer class="site-footer">
+    © 2026 Upper Life Clothing Co
+  </footer>
+
+  <script>
+    const slides = Array.from(document.querySelectorAll('.slide'));
+    let currentIndex = 0;
+
+    setInterval(() => {
+      slides.forEach((slide, index) => {
+        slide.classList.toggle('active', index === currentIndex);
+      });
+      currentIndex = (currentIndex + 1) % slides.length;
+    }, 4000);
+  </script>
+  <script src="site.js" defer></script>
+</body>
+</html>

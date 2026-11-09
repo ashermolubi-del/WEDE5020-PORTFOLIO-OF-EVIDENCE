@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace YOUR-DOMAIN-HERE with the site's live HTTPS hostname before publishing. -->
+  <url>
+    <loc>https://YOUR-DOMAIN-HERE/</loc>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN-HERE/About%20Us.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN-HERE/Collections.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN-HERE/Shop.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN-HERE/Order%20Form.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN-HERE/Contact%20Us.html</loc>
+  </url>
+</urlset>

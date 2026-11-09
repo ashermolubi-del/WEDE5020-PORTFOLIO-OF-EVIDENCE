@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace YOUR-DOMAIN-HERE with the live site's HTTPS hostname before publishing.
+Sitemap: https://YOUR-DOMAIN-HERE/sitemap.xml

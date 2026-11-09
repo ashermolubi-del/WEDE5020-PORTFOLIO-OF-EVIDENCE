@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Place an Order | Upper Life</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <div class="watermark" aria-hidden="true">
+    <img src="Images/IMG-20260901-WA0077.jpg" alt="" />
+  </div>
+  <header class="site-header">
+    <div class="topbar">
+      <div class="brand">Upper Life</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="Index.html">Home</a>
+        <a href="About Us.html">About</a>
+        <a href="Collections.html">Collections</a>
+        <a href="Shop.html">Shop</a>
+        <a href="Shopping Cart.html">Cart</a>
+        <a href="Order%20Form.html" aria-current="page">Order</a>
+        <a href="Contact Us.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container order-container">
+    <div class="page-intro">
+      <h1>Place your order</h1>
+      <p>Tell us what you would like and where to deliver it. We’ll prepare an order request for you to email.</p>
+    </div>
+
+    <form class="order-form" id="order-form">
+      <section class="order-section" aria-labelledby="order-items-heading">
+        <h2 id="order-items-heading">Your items</h2>
+        <div class="form-grid">
+          <label class="form-field form-field-wide" for="product">
+            Product
+            <select id="product" name="Product" required>
+              <option value="" data-price="0">Choose a product</option>
+              <option value="Relaxed white T-shirt" data-price="1299">Relaxed white T-shirt — R 1,299</option>
+              <option value="Zip Hoodie" data-price="950">Zip Hoodie — R 950</option>
+              <option value="Tracksuit Set" data-price="1450">Tracksuit Set — R 1,450</option>
+              <option value="Graphic T-Shirt" data-price="899">Graphic T-Shirt — R 899</option>
+              <option value="Oversized Tee" data-price="499">Oversized Tee — R 499</option>
+              <option value="Bucket Hat" data-price="350">Bucket Hat — R 350</option>
+            </select>
+          </label>
+          <label class="form-field" for="size">
+            Size
+            <select id="size" name="Size" required>
+              <option value="Not applicable">Not applicable</option>
+              <option value="XS">XS</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+            </select>
+          </label>
+          <label class="form-field" for="quantity">
+            Quantity
+            <input id="quantity" name="Quantity" type="number" min="1" max="10" value="1" required />
+          </label>
+          <label class="form-field form-field-wide" for="colour">
+            Colour preference <span class="optional-label">(optional)</span>
+            <input id="colour" name="Colour preference" type="text" maxlength="60" placeholder="e.g. Black" />
+          </label>
+        </div>
+        <p class="order-total" aria-live="polite">Estimated item total: <strong id="order-total">Choose a product</strong></p>
+      </section>
+
+      <section class="order-section" aria-labelledby="customer-heading">
+        <h2 id="customer-heading">Your details</h2>
+        <div class="form-grid">
+          <label class="form-field" for="full-name">
+            Full name
+            <input id="full-name" name="Full name" type="text" autocomplete="name" maxlength="100" required />
+          </label>
+          <label class="form-field" for="email">
+            Email address
+            <input id="email" name="Email" type="email" autocomplete="email" maxlength="254" required />
+          </label>
+          <label class="form-field" for="phone">
+            Phone number
+            <input id="phone" name="Phone" type="tel" autocomplete="tel" maxlength="30" required />
+          </label>
+        </div>
+      </section>
+
+      <section class="order-section" aria-labelledby="delivery-heading">
+        <h2 id="delivery-heading">Delivery address</h2>
+        <div class="form-grid">
+          <label class="form-field form-field-wide" for="address">
+            Street address
+            <input id="address" name="Street address" type="text" autocomplete="street-address" maxlength="180" required />
+          </label>
+          <label class="form-field" for="city">
+            City / town
+            <input id="city" name="City" type="text" autocomplete="address-level2" maxlength="100" required />
+          </label>
+          <label class="form-field" for="postal-code">
+            Postal code
+            <input id="postal-code" name="Postal code" type="text" autocomplete="postal-code" maxlength="20" required />
+          </label>
+          <label class="form-field form-field-wide" for="country">
+            Country
+            <input id="country" name="Country" type="text" autocomplete="country-name" value="South Africa" maxlength="80" required />
+          </label>
+          <label class="form-field form-field-wide" for="notes">
+            Order notes <span class="optional-label">(optional)</span>
+            <textarea id="notes" name="Order notes" rows="4" maxlength="500" placeholder="Any delivery or product notes?"></textarea>
+          </label>
+        </div>
+      </section>
+
+      <p class="order-disclaimer">Submitting opens a prefilled email to Upper Life. Your request is received only after you send that email. Payment and delivery costs will be confirmed by our team.</p>
+      <button class="button order-submit" type="submit">Continue by email</button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">© 2026 Upper Life Clothing Co</footer>
+</body>
+</html>
